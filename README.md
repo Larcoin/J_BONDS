@@ -16,7 +16,7 @@ This new Larcoin repository contains the following primary contracts:
 
 `DelegationModule.sol` is a contract that separates delegatable token balances into sub-modules per user that can then delegate voting shares.
 
-# [`SharesTimeLock.sol`](./J_Bonds/SharesTimeLock.sol)
+# [`SharesTimeLock.sol`](../J_Bonds/SharesTimeLock.sol)
 
 ## Overview
 
@@ -93,7 +93,7 @@ For more information on this, [read this thread](https://forum.indexed.finance/t
 
 The owner may trigger an "emergency unlock", which blocks deposits and allows all locked tokens to be withdrawn with no fees.
 
-# [`DelegationModule.sol`](.J_Bonds/DelegationModule.sol)
+# [`DelegationModule.sol`](../J_Bonds/DelegationModule.sol)
 
 Delegatable tokens such as COMP do not allow partial delegation. When these tokens are wrapped, the wrapper contract can not allow the holders of the wrapped token to delegate voting shares with the underlying tokens. The only way to do so is to use a separate contract for each user which holds the underlying token and enables the user to delegate their voting shares.
 
