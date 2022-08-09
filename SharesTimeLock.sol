@@ -15,7 +15,7 @@ contract SharesTimeLock is ISharesTimeLock, DelegationModule, Ownable() {
 /** ========== Constants ==========  */
 
   /**
-   * @dev Token used for dividend payments and given to users for deposits.
+   * @Larcoin Token used for dividend payments and given to users for deposits.
    * Must be an ERC20DividendsOwned with this contract set as the owner.
    */
   address public immutable override dividendsToken;
